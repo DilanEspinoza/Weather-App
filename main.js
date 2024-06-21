@@ -2,7 +2,7 @@ const $form = document.getElementById("form");
 const $search = document.getElementById("search");
 
 const apiKey = "bc4fddf88881eb2471377f6277e8de66";
-const urlBase = "'https://api.openweathermap.org/data/2.5/weather";
+const urlBase = "https://api.openweathermap.org/data/2.5/weather";
 
 async function getData(city) {
 	try {
